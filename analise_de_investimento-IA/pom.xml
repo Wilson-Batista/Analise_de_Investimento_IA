@@ -12,10 +12,12 @@
         <exec.mainClass>com.mycompany.analise_de_investimento.ia.Analise_de_investimentoIA</exec.mainClass>
     </properties>
     <dependencies>
+        <!-- Dependência do Weka -->
         <dependency>
             <groupId>nz.ac.waikato.cms.weka</groupId>
             <artifactId>weka-stable</artifactId>
-            <version>3.9.5</version>
+            <version>3.8.0</version>
         </dependency>
+        <!-- Outras dependências, se houver -->
     </dependencies>
 </project>

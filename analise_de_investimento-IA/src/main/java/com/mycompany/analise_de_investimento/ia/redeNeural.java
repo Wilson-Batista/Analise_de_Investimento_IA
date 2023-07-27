@@ -26,7 +26,7 @@ public class redeNeural {
 
             //Treino
             MultilayerPerceptron redeNeural = new MultilayerPerceptron();
-            redeNeural.setHiddenLayers("10"); // Uma camada oculta com 5 neurônios
+            redeNeural.setHiddenLayers("100"); // Uma camada oculta com 5 neurônios
             redeNeural.setLearningRate(0.1); // Taxa de aprendizado de 0.1
             redeNeural.setMomentum(0.2); // Momentum de 0.2
             redeNeural.setTrainingTime(2000); // Número máximo de iterações (épocas) = 2000
